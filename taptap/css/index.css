@@ -1,0 +1,81 @@
+/*header区域*/
+	.header{
+		height: 80px;
+		background-color: #13b9c7;
+	}
+	.header .header-icon1{
+		float: left;
+		color: #fff;
+		font-size: 38px;
+		margin-top: 21px;
+		margin-left: 5px;
+	}
+	.header .header-icon2{
+		float: left;
+		color: #fff;
+		font-size: 26px;
+		margin-top: 27px;
+		margin-left: 28px;
+	}
+	.input-con{
+		float: left;
+		width: 540px;
+		height: 80px;
+		position: relative;
+	}
+	.input-con>input{
+		z-index: 2;         /*定位流显示顺序*/
+		opacity: 0;           /*透明度为零*/
+	}
+	.input-con a{
+		z-index: 1;
+	}
+	.header a,.header input{
+		width: 90px;
+		height: 80px;
+		text-decoration: none;     /*取消a标签下划线*/
+		text-align: center;       /* 块级元素居中*/
+		line-height: 80px;
+		font-size: 16px;
+		color: #fff;
+		position: absolute;
+	}
+	#ctr1,#ctr1+a{          /*并集选择器/相邻兄弟选择器*/
+		left: 0%;             /*元素位置*/
+	}
+	#ctr2,#ctr2+a{
+		left: 16%;
+	}
+	#ctr3,#ctr3+a{
+		left: 32%;
+	}
+	#ctr4,#ctr4+a{
+		left: 48%;
+	}
+	#ctr5,#ctr5+a{
+		left: 64%;
+	}
+	#ctr6,#ctr6+a{
+		left: 80%;
+	}
+	input:hover+a{
+		background-color: #34c3d2;
+	}
+	input:checked+a{       /* 相邻兄弟选择器/点击触发 */     
+		background-color: #11a7b5;
+	}
+/*home区域*/
+	.home{
+		height: 449px;
+		background-color: orange;
+	}
+/*main区域*/
+	.main{
+		height: 3714px;
+		background-color: pink;
+	}
+/*footer区域*/
+	.footer{
+		height: 281px;
+		background-color: green;
+	}

@@ -1,0 +1,191 @@
+/*top区域*/
+	.top{
+		height: 34px;
+		background-color: #4A4747;
+	}
+	.top .top-one{
+		float: left;
+		width: 680px;
+		height: 34px;
+		/*background-color: orange;*/
+	}
+	.top .top-one .nbv-ul li{
+		float: left;
+		line-height: 34px;
+	}
+	.top .top-cart{
+		float: right;
+		width: 120px;
+		height: 34px;
+		background-color: #424242;
+		line-height: 34px;
+		text-align: center;
+	}
+	.top .top-cart i{
+		font-size: 20px;
+	}
+	.top .top-cart span{
+		vertical-align: 3px;
+	}
+	.top .top-cart:hover a{
+		color: #ff6700;
+	}
+	.top .top-cart:hover{
+		background-color: #fff;
+	}
+	.top .top-two{
+		float: right;
+		width: 155px;
+		height: 34px;
+		/*background-color: blue;*/
+	}
+	.top .top-two li{
+		float: left;
+		line-height: 34px;
+	}
+/*header区域*/
+	.header{
+		height: 100px;
+	}
+	.header .logo1{
+		float: left;
+		width: 55px;
+		height: 55px;
+		margin-top: 22px;
+	}
+	.header .header-nvb{
+		float: left;
+		width: 661px;
+		height: 100px;
+		line-height: 100px;
+		margin-left: 179px;
+	}
+	.header .header-nvb li{
+		float: left;
+		margin-right: 20px;
+	}
+	.header .header-nvb a{
+		color: #333;
+		font-size: 16px;
+	}
+	.header .header-nvb li:hover>a{
+		color: #ff6700;
+	}
+	.header .ss{
+		float: right;
+		width: 296px;
+		height: 50px;
+		margin-top: 25px;
+		position: relative;
+	}
+	.header .ss .ss-text{
+		float: left;
+		width: 244px;
+		height: 50px;
+		border: 1px solid #e0e0e0;
+		box-sizing:border-box;
+		border-right: none;
+		padding-left: 10px;
+		outline: none;
+	}
+	.header .ss:hover .ss-text{
+		border-color: #b0b0b0;
+		border-right: none;
+	}
+	.header .ss:hover .ss-span{
+		border-color: #b0b0b0;
+	}
+	/*.header .ss:hover .ss-span,.header .ss:hover .ss-text{
+		border: 1px solid #b0b0b0;
+	}*/
+	.header .ss .ss-span{
+		float: left;
+		width: 52px;
+		height: 50px;
+		line-height: 50px;
+		text-align: center;
+		border: 1px solid #e0e0e0;
+		color: #616161;
+		box-sizing:border-box;
+		font-size: 24px;
+	}
+	.header .ss .ss-span:hover{
+		background-color: #ff6700; 
+		color: #fff;
+		border: none;
+	}
+	.se{
+		position: absolute;
+		font-size: 12px;
+		text-align:center;
+	}
+	.se1{
+		position: absolute;
+		/*float: left;*/
+		top:16px;
+		left: 127px;
+		width: 41px;
+		height: 18px;
+		background-color: #eee;
+	}
+	.se1:hover{
+		background-color: #ff6700;
+		color: #fff;
+	}
+	.se2{
+		position: absolute;
+		top:16px;
+		left: 173px;
+		width: 60px;
+		height: 18px;
+		background-color: #eee;
+	}
+	.se2:hover{
+		background-color: #ff6700;
+		color: #fff;
+	}
+	.ss-list{
+		display: none;   /* display 属性设置元素如何显示。*/
+		position: absolute;
+		top: 50px;
+		left: 0px;
+		width: 245px;
+		height: 301px;
+		border: 1px solid #ff6700;
+		background-color: #fff;
+		box-sizing: border-box;
+		border-top: none;
+	}
+	.ss-list a{
+		margin-left: 15px;
+		line-height: 30px;
+		color:#333;
+	}
+	.header .ss .ss-text:focus{
+		border-color: #ff6700;
+		border-right: none;
+	}
+	.header .ss .ss-text:focus ~ .ss-span{
+		border-color: #ff6700;
+	}
+	.header .ss .ss-text:focus ~ .se{
+		display: none;
+	}
+	.header .ss .ss-text:focus ~ .ss-list{
+		display: block;
+	}
+/*home区域*/
+	.home{
+		height: 832px;
+		background-color: orange;
+	}
+/*main区域*/
+	.main{
+		height: 2136px;
+		background-color: pink;
+	}
+/*footer区域*/
+	.footer{
+		height: 284px;
+		background-color: green;
+	}
