@@ -146,14 +146,14 @@
 	}
 	.ss-list{
 		display: none;   /* display 属性设置元素如何显示。*/
-		position: absolute;
+		position: absolute;        /*相对定位*/
 		top: 50px;
 		left: 0px;
 		width: 245px;
 		height: 301px;
 		border: 1px solid #ff6700;
 		background-color: #fff;
-		box-sizing: border-box;
+		box-sizing: border-box;    /*IE盒模型*/
 		border-top: none;
 	}
 	.ss-list a{
@@ -169,10 +169,10 @@
 		border-color: #ff6700;
 	}
 	.header .ss .ss-text:focus ~ .se{
-		display: none;
+		display: none;   /* display 属性设置元素如何显示。*/
 	}
 	.header .ss .ss-text:focus ~ .ss-list{
-		display: block;
+		display: block;    /* 转换为块级元素*/
 	}
 /*home区域*/
 	.home{
