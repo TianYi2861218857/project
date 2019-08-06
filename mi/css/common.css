@@ -1,19 +1,245 @@
-.container{
-	width: 1226px;
-	margin-right: auto;
-	margin-left: auto;
-	/*background-color: blue;*/
-}
-a{
-	text-decoration: none;
-	font-size: 12px;
-	color:#b0b0b0;
-}
-a:hover{
-	color: #fff;
-}
-.trl{
-	color:#393d42;
-	margin-left: 5px;
-	margin-right: 5px;
-}
+/*共用属性*/
+	.container{
+		width: 1226px;
+		margin-right: auto;
+		margin-left: auto;
+		/*background-color: blue;*/
+	}
+	a{
+		text-decoration: none;
+		font-size: 12px;
+		color:#b0b0b0;
+	}
+	a:hover{
+		color: #fff;
+	}
+	.trl{
+		color:#393d42;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	.clearfix:after{ 
+		content: "."; 
+		display: block;
+		height: 0; 
+		clear: both; 
+		visibility: hidden; 
+	}
+	.clearfix{
+		*zoom: 1;
+	}
+/*抽取的公共样式*/
+	.topg{
+		height: 80px;
+		width: 100%;
+	}
+	.topg h2{
+		float: left;
+		color: #333;
+		font-size: 22px;
+		margin-top: 40px;
+	}
+	.more1{
+		float: right;
+		margin-top: 40px;
+		color: #424242;
+	} 
+	.more1:hover span:nth-child(1){
+		color: #ff6700;
+	}
+	.more1:hover span:nth-child(2){
+		background-color: #ff6700;
+	}
+	.more1 span{
+		float: left;
+		box-sizing: border-box;
+	}
+	.more1 span:nth-child(1){
+		font-size: 16px;
+		margin-right: 10px;
+	}
+	.more1 span:nth-child(2){
+		color: #fffefb;
+		width: 22px;
+		height: 22px;	
+		background-color: #b0b0b0;
+		font-size: 14px;
+		border-radius: 11px;
+		line-height: 22px;
+		text-align: center;
+	}
+	.cor1{
+		float: left;
+		width: 234px;
+	}
+	.cor11{        /* cor11:左边仅有1张图，cor12为两张图*/
+		height: 614px;
+	} 
+	.cor1x img{      /*cor1x 图片效果*/
+		width: 100%;
+		height: 100%;
+		transition: all 500ms;
+	}
+	.cor1x img:hover,.cor3x:hover{        /* cor3x: 图像效果;*/
+		transform:translateY(-5px);
+		box-shadow: 0px 5px 5px 5px rgba(0,0,0,0.1);
+	}
+	.cor2{
+		float: right;
+		width: 978px;
+	}
+	.cor2x li:nth-child(1){     /* cor2x: 右边8张图片的排列;*/
+		margin-left: 0px;
+	}
+	.cor2x li:nth-child(5){
+		margin-left: 0px;
+	}
+	.cor3{
+		float: left;
+		width: 234px;
+		margin-left: 14px;
+		margin-bottom: 14px; 
+	}
+	.cor3x{
+		position: relative;
+		height: 300px;
+		transition: all 500ms;
+		background-color: #fff;
+	}
+	.cor3x img{
+		width: 132px;
+		height: 142px;
+		margin-top: 26px;
+		margin-left: 56px;
+		cursor: pointer; 
+	}
+	.ad{
+		height: 120px;
+		margin-top: 41px;
+		cursor: pointer;
+	}
+	.ad img{
+		width: 100%;
+		height: 100%;
+	}
+	.xinping{
+		position: absolute;
+		top: 0px;
+		left: 50%;
+		margin-left: -32px;
+		width: 64px;
+		height: 20px;
+		font-size: 12px;
+		color: #fff;
+		text-align: center;
+		line-height: 20px;
+	}
+	.xingreen{
+		background-color: #83c44e;
+	}
+	.xinred{
+		background-color: #e53935;
+	}
+	.sh-text{
+		width: 190px;
+		margin-left: auto;
+		margin-right: auto;
+		color: #202020;
+		overflow: hidden;    /*  溢出省略并显示省略号*/
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		margin-bottom: 10px;
+		text-align: center;
+	}
+	.sh-text1{
+		margin-top: 20px;
+		font-size: 13px;
+		cursor: pointer; 
+	}
+	.sh-text2{
+		margin-top: 10px;
+		font-size: 11px;
+		color: #adadad;
+	}
+	.sh-text3{
+		margin-top: 15px;
+		font-size: 13px;
+	}
+	.cor3 span{
+		color: #fa6509;
+		margin-right: 10px;
+	}
+	.cor3 del{
+		color: #adadad;
+	}
+
+/*样式框架
+<div class="topg clearfix">
+	<div><h2>手机</h2></div>
+	<div class="more more1">
+		<span>查看全部</span>
+		<span><i class="iconfont">&#xe623;</i></span>
+	</div>
+</div>
+<div class="sh-bottom clearfix">
+	<div class="sh-left cor1 cor11 cor1x">
+		<img src="images/shouji.jpg">
+	</div>
+	<ul class="sh-right cor2 cor2x">
+		<li class="cor3 cor3x">
+			<img src="images/shouji1.jpg">
+			<p class="sh-text sh-text1">小米9 6GB+128GB</p>
+			<p class="sh-text sh-text2">骁龙855，索尼4800万超广角微距三摄</p>
+			<p class="sh-text sh-text3"><span>2599元</span><del>2999元</del></p>
+			<div class="xinping xingreen"><h3>新品</h3></div>
+		</li>
+		<li class="cor3 cor3x">
+			<img src="images/shouji2.jpg">
+			<p class="sh-text sh-text1">小米MIX 3 6GB+128GB</p>
+			<p class="sh-text sh-text2">磁动力滑盖全面屏/四曲面陶瓷机身</p>
+			<p class="sh-text sh-text3"><span>2299元</span><del>3299元</del></p>
+		</li>
+		<li class="cor3 cor3x">
+			<img src="images/shouji3.jpg">
+			<p class="sh-text sh-text1">Redmi Note 7 Pro</p>
+			<p class="sh-text sh-text2">6GB+128GB大存储，索尼4800万拍照</p>
+			<p class="sh-text sh-text3"><span>1599元</span></p>
+		</li>
+		<li class="cor3 cor3x">
+			<img src="images/shouji1.jpg">
+			<p class="sh-text sh-text1">小米9 6GB+128GB</p>
+			<p class="sh-text sh-text2">骁龙855，索尼4800万超广角微距三摄</p>
+			<p class="sh-text sh-text3"><span>2599元</span><del>2999元</del></p>
+			<div class="xinping xinred"><h3>秒杀</h3></div>
+		</li>
+		<li class="cor3 cor3x">
+			<img src="images/shouji2.jpg">
+			<p class="sh-text sh-text1">小米MIX 3 6GB+128GB</p>
+			<p class="sh-text sh-text2">磁动力滑盖全面屏/四曲面陶瓷机身</p>
+			<p class="sh-text sh-text3"><span>2299元</span><del>3299元</del></p>
+			<div class="xinping xinred"><h3>秒杀</h3></div>
+		</li>
+		<li class="cor3 cor3x">
+			<img src="images/shouji3.jpg">
+			<p class="sh-text sh-text1">Redmi Note 7 Pro</p>
+			<p class="sh-text sh-text2">6GB+128GB大存储，索尼4800万拍照</p>
+			<p class="sh-text sh-text3"><span>1599元</span></p>
+			<div class="xinping xinred"><h3>满200元</h3></div>
+		</li>
+		<li class="cor3 cor3x">
+			<img src="images/shouji1.jpg">
+			<p class="sh-text sh-text1">小米9 6GB+128GB</p>
+			<p class="sh-text sh-text2">骁龙855，索尼4800万超广角微距三摄</p>
+			<p class="sh-text sh-text3"><span>2599元</span><del>2999元</del></p>
+			<div class="xinping xinred"><h3>秒杀</h3></div>
+		</li>
+		<li class="cor3 cor3x">
+			<img src="images/shouji2.jpg">
+			<p class="sh-text sh-text1">小米MIX 3 6GB+128GB</p>
+			<p class="sh-text sh-text2">磁动力滑盖全面屏/四曲面陶瓷机身</p>
+			<p class="sh-text sh-text3"><span>2299元</span><del>3299元</del></p>
+		</li>
+	</ul>
+</div>
+<div class="ad clearfix"><img src="images/ad2.jpg" alt=""></div>
+*/
