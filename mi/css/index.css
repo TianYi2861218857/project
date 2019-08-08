@@ -478,6 +478,22 @@
 	.cor3 del{
 		color: #adadad;
 	}                                   抽到公共样式*/
+	.cor-last-top-one{
+		position: absolute;
+		top: 45px;
+		left: 25px;
+		width: 76px;
+		height: 45px;
+	}
+	.cor-last-top-one p{
+		overflow: hidden;    /*  溢出省略并显示省略号*/
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		text-align: left;
+	}
+	.cor-last-top{
+		position: relative;
+	}
 	.last-text{
 
 	}
@@ -485,16 +501,32 @@
 		font-size: 13px;
 		cursor: pointer;
 	}
+	.last-text2{
+		color: #757575;
+	}
 	.cor-last .cor-last-top{
 		width: 100%;
 		height: 143px;
 		background-color: #fff;
 	}
+	.cor-last .cor-last-top>img{
+		position: absolute;
+		top: -5px;
+		left: 62px;
+		width: 100px;
+		height: 100px;
+	}
+	.cor-last-icon{
+		position: absolute;
+		top: 44px;
+		right: 34px;
+		color: #ff6700;
+		font-size: 50px;
+	}
 	.cor-last .cor-last-bottom{
 		margin-top: 14px;
 		width: 100%;
 		height: 143px;
-		background-color: orange;
 	}
 	.home .shooping .sh-bottom .sh-right li img{
 		width: 160px;
@@ -557,5 +589,91 @@
 /*footer区域*/
 	.footer{
 		height: 284px;
-		background-color: green;
+	}
+	.ft-top{
+		height: 79px;
+		width: 100%;
+		border-bottom: 1px solid #e0e0e0;
+	}
+	.footer .ft-top .ft-top-li{
+		float: left;
+		width: 20%;
+		height: 25px;
+		margin-top: 27px;
+		border-right: 1px solid #e0e0e0;
+		box-sizing: border-box;
+		text-align: center;
+
+	}
+	.footer .ft-top .ft-top-li a{
+		font-size: 16px;
+		color: #616161;
+	}
+	.footer .ft-top .ft-top-li a:hover,
+	.footer .ft-top .ft-top-li a:hover i{
+		color: #ff6700;
+	}
+	.footer .ft-top .ft-top-li a i{
+		font-size: 23px;
+		color: #8a8585;
+		margin-right: 6px;
+		vertical-align: -4px;    /* 属性设置元素的垂直对齐方式。*/
+	}
+	.footer .ft-top li:nth-child(5){
+		border: 0px;
+	}
+	.ft-bt-dl{
+		float: left;
+		width: 158px;
+		margin-top: 40px;
+	}
+	.ft-bt-dl span{
+		display: inline-block;
+		font-size: 14px;
+		color: #424242;
+		margin-bottom: 20px;
+	}
+	.ft-bt-dl a{
+		display: inline-block;
+		font-size: 12px;
+		color: #757575;
+		margin-bottom: 8px;
+	}
+	.ft-bt-dl a:hover{
+		color: #ff6700;
+	}
+	.ft-bt-last{
+		float: right;
+		width: 252px;
+		height: 112px;
+		box-sizing: border-box;
+		border-left: 1px solid #e0e0e0;
+		margin-top: 40px;
+		text-align: center;
+	}
+	.ft-bt-last p:nth-child(1){
+		font-size: 21px;
+		color: #ff6700;
+		margin-bottom: 2px;
+	}
+	.bt-text2{
+		font-size: 11px;
+		color: #616161;
+	}
+	.ft-bt-last a{
+		display: inline-block;
+		border: 1px solid #ff6700;
+		width: 118px;
+		height: 28px;
+		text-align: center;
+		line-height: 28px;
+		color: #ff6700;
+		margin-top: 18px;
+	}
+	.ft-bt-last a:hover{
+		background-color: #ff6700;
+		color: #fff;
+	}
+	.ft-bt-last a i{
+		margin-right: 3px;
 	}
