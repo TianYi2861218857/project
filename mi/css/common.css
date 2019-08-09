@@ -19,14 +19,14 @@
 		margin-right: 5px;
 	}
 	.clearfix:after{ 
-		content: "."; 
+		content: ".";  /* 搭配after伪类选择器，内容为空*/
 		display: block;
 		height: 0; 
 		clear: both; 
-		visibility: hidden; 
+		visibility: hidden;  
 	}
 	.clearfix{
-		*zoom: 1;
+		*zoom: 1;      /*兼容IE浏览器*/
 	}
 /*抽取的公共样式*/
 	.topg{
