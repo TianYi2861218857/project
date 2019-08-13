@@ -1,0 +1,45 @@
+/*top区域*/
+	.top{
+		height: 56px;
+		/*background-color: #242424;*/
+	}
+/*header区域*/
+	.header{
+		height: 480px;
+		background-color: blue;
+	}
+/*main-1区域*/
+	.main-1{
+		height: 2046px;
+		background-color: orange;
+	}
+/*skill-1区域*/
+	.skill-1{
+		height: 510px;
+		background-color: green;
+	}
+/*main-2区域*/
+	.main-2{
+		height: 1226px;
+		background-color: orange;
+	}
+/*skill-2区域*/
+	.skill-2{
+		height: 456px;
+		background-color: green;
+	}
+/*join区域*/
+	.join{
+		height: 280px;
+		background-color: pink;
+	}
+/*footer区域*/
+	.footer{
+		height: 239px;
+		background-color: gray;
+	}
+/*bottom区域*/
+	.bottom{
+		height: 55px;
+		background-color: black;
+	}

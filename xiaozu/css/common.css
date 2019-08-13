@@ -1,0 +1,32 @@
+/*共用属性*/
+.container{            /*内容区*/
+	width: 1360px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: cyan;
+}
+.clearfix:after{ 
+	content: ".";  /* 搭配after伪类选择器，内容为空*/
+	display: block;
+	height: 0; 
+	clear: both; 
+	visibility: hidden;  
+}
+.clearfix{
+	*zoom: 1;      /*兼容IE浏览器*/
+}
+a{
+	text-decoration: none;
+	font-size: 12px;
+	color:#b0b0b0;
+}
+a:hover{
+	color: #fff;
+}
+.trl{       /* top区*/
+	color:#393d42;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+/*抽取的公共样式*/
