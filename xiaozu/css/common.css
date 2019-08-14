@@ -3,7 +3,7 @@
 	width: 1360px;
 	margin-right: auto;
 	margin-left: auto;
-	background-color: cyan;
+	/*background-color: cyan;*/
 }
 .clearfix:after{ 
 	content: ".";  /* 搭配after伪类选择器，内容为空*/
@@ -17,16 +17,39 @@
 }
 a{
 	text-decoration: none;
-	font-size: 12px;
-	color:#b0b0b0;
+	font-size: 14px;
+	color:#fff;
 }
-a:hover{
-	color: #fff;
+.text1{
+	text-align: center;
+	font-size: 32px;
+	color: #000106;
+	margin-bottom: 38px;
 }
-.trl{       /* top区*/
-	color:#393d42;
-	margin-left: 5px;
-	margin-right: 5px;
+.text2{
+	text-align: center;
+	font-size: 20px;
+	color: #00010c;
+	margin-bottom: 80px;
 }
-
+.text3{
+	width: 316px;
+	font-size: 16px;
+	color: #000400;
+	margin-top: 48px;
+	margin-bottom: 24px;
+}
+.text4{
+	width: 316px;
+	font-size: 14px;
+	color: #8e8f91;
+}
 /*抽取的公共样式*/
+.liov{
+	width: 96px;
+	height: 56px;
+	text-align: center;
+	line-height: 56px;
+	/*float: left;*/
+	/*background-color: #000;*/
+}

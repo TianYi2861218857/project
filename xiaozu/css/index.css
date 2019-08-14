@@ -1,17 +1,125 @@
 /*top区域*/
 	.top{
 		height: 56px;
-		/*background-color: #242424;*/
+		width: 100%;
+		background-color: #242424;
+		position: fixed;
+		top: 0px;
+	}
+	.top a img{
+		float: left;
+		width: 34px;
+		height: 32px;
+		margin: 15px 10px 0px 0px;
+	}
+	.top a h1{
+		float: left;
+		font-size: 20px;
+		line-height: 56px;
+	}
+	.top .top-list{
+		float: left;
+		padding-left: 29px;
+	}
+	.top .top-list li{
+		width: 96px;
+		height: 56px;
+		text-align: center;
+		line-height: 56px;
+		float: left;
+	}
+	.top .top-list li:hover{
+		background-color: #000;
+	}
+	.top .top-list li:hover a{
+		color: #1187ff;
+	}
+	.top .top-list .top-kzt{
+		margin-left: 293px;
+	}
+	.top .container input{
+		float: right;
+		width: 78px;
+		height: 30px;
+		border: 1px solid #d9d9d9;
+		box-sizing:border-box;
+		outline: none;
+		background-color: #242424;
+		border-radius: 16px;
+		color: #f7f7f7;
+		font-size: 12px;
+		margin-top: 14px;
+		margin-right: 62px;
+	}
+	.top .container input:hover{
+		background-color: #1187ff;
+		border-color: #1187ff;
+	}
+	#box1{
+		position: fixed;
+		top: 56px;
+		width: 96px;
+		height: 168px;
+		left: 465px;
+		background-color: #000;
 	}
 /*header区域*/
 	.header{
 		height: 480px;
-		background-color: blue;
+		/*background-color: blue;*/
+		background-image: url(../images/headerbackground.png);
+		background-size: cover;
+		margin-top: 56px;
+	}
+	.header .container{
+		height: 480px;
+		position: relative;
+	}
+	.header .container .header-ul{
+		position: absolute;
+		bottom: 0px;
+		left: 648px;
+	}
+	.header .header-ul li{
+		float: left;
+		width: 16px;
+		height: 3px;
+		background-color: rgba(235,235,235,0.4);
+		margin-left: 4px;
+		margin-bottom: 12px;
+		cursor: pointer;   /*鼠标放上变小手*/
+		transition: background-color 650ms linear;
+	}
+	.header .header-ul li:hover{
+		background-color: rgba(235,235,235,1);
+	}
+	.header .header-ul .header-list{
+		width: 23px;
+		background-color: rgba(235,235,235,1);
 	}
 /*main-1区域*/
 	.main-1{
 		height: 2046px;
+		background-color: #f5f6f8;
+	}
+	.main-1-one{
+		padding-top: 78px;
+		height: 579px;
 		background-color: orange;
+	}
+	.main-one-bottom div{
+		float: left;
+		width: 340px;
+		height: 252.38px;
+	}
+	.main-one-bottom div img{
+		width: 316px;
+		height: 120px;
+	}
+	.main-1-two{
+		padding-top: 78px;
+		height: 579px;
+		background-color: blue;
 	}
 /*skill-1区域*/
 	.skill-1{
