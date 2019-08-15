@@ -99,13 +99,14 @@
 	}
 /*main-1区域*/
 	.main-1{
-		height: 2046px;
+		/*height: 2046px;*/
 		background-color: #f5f6f8;
+		padding-bottom: 83px;
 	}
 	.main-1-one{
 		padding-top: 78px;
-		height: 579px;
-		background-color: orange;
+		height: 515px;
+		/*background-color: orange;*/
 	}
 	.main-one-bottom div{
 		float: left;
@@ -118,18 +119,116 @@
 	}
 	.main-1-two{
 		padding-top: 78px;
-		height: 579px;
-		background-color: blue;
+		/*background-color: blue;*/
+	}
+	.main-1-two .main-1-two-ul div{
+		width: 664px;
+		height: 379px;
+		float: left;
+	}
+	.main-1-two .main-1-two-ul div:nth-child(1),
+	.main-1-two .main-1-two-ul div:nth-child(3){
+		margin-right: 32px;
+	}
+	.main-1-two .main-1-two-ul p{
+		text-align: center;
+		font-size: 16px;
+		margin-top: 24px;
+		color: #060010;
+	}
+	.main-1-two img{
+		height: 295px;
+	}
+	.main-1-three{
+		padding-top: 124px;
+		/*background-color: orange;*/
+	}
+	.main-1-three>p{
+		margin-bottom: 66px;
+	}
+	.main-1-three .main-1-three-tu div{
+		float: left;
+		width: 340px;
+	}
+	.main-1-three-tu svg{
+		font-size: 32px;
+	}
+	.main-1-three-tu .text3{
+		margin-top: 32px;
+	}
+	.main-1-three-tu p{
+		width: 310px;
 	}
 /*skill-1区域*/
 	.skill-1{
-		height: 510px;
-		background-color: green;
+		height: 368px;
+		background-color: #2a2f59;
+		padding-top: 62px;
+		padding-bottom: 80px;
+	}
+	.skill-1 .container .text2{
+		margin-bottom: 55px;
+		color: #fff;
+	}
+	.skill-1-top>div{
+		width: 272px;
+		height: 52px;
+		/*background-color: orange;*/
+		float: left;
+		text-align: center;
+		position: relative;
+	}
+	.spn-r{
+		right: 0px;
+		top: 25px;
+	}
+	.spn-l{
+		left: 0px;
+		top: 25px;
+	}
+	.skill-1-top div svg{
+		margin-top: 7px;
+		font-size: 38px;
+		color: #fff;
+	}
+	.text3-1{
+		font-size: 16px;
+		color: #fff;
+		margin-top: 24px;
+		margin-bottom: 24px;
+	}
+	.skill-1-bottom>div{
+		width: 272px;
+		height: 118px;
+		/*background-color: green;*/
+		float: left;
+		text-align: center;
+	}
+	.skill-1-con{
+		position: relative;
+		width: 100%;
+		height: 116px;
+	}
+	.skill-1-con a{
+		position: absolute;
+		width: 300px;
+		height: 56px;
+		background-color: #00c1e0;
+		color: #fff;
+		font-size: 20px;
+		bottom: 0px;
+		left: 50%;
+		margin-left: -150px;
+		text-align: center;
+		line-height: 56px;	
+	}
+	.skill-1-con a:hover{
+		color: #000;
 	}
 /*main-2区域*/
 	.main-2{
 		height: 1226px;
-		background-color: orange;
+		background-color: #f5f6f8;
 	}
 /*skill-2区域*/
 	.skill-2{
