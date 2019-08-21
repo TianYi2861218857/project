@@ -33,4 +33,24 @@
 	.clearfix{
 		*zoom: 1;      /*兼容IE浏览器*/
 	}
+	*{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	h1,h2,h3,h4,h5,h6{
+		font-size:100%;
+		font-weight:normal
+	}
 /*抽取的公共样式*/
+	.text1{
+		font-size: 52px;
+		line-height: 62px;
+	}
+	.text2{
+		font-size: 20px;
+	}
+	.text3{
+		font-size: 16px;
+		line-height: 28px;
+	}
