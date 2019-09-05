@@ -105,7 +105,7 @@
 		top: 100px;
 		height: 0px;
 		width: 100%;
-		z-index: 99;
+		z-index: 100;
 		background-color: #fff;
 		box-shadow: 0px 3px 4px 0px rgba(0,0,0,0.3);
 		/*border-top: 1px solid #ccc;*/
@@ -123,7 +123,7 @@
 		border-right: 1px solid #ccc;		
 	}
 	.header .header-nvb-content li .img-box img{
-		width: 120px;
+		width: 100px;
 		height: 100px;	
 	}
 	.header .header-nvb-content li .product-name{
@@ -255,14 +255,14 @@
 		background-color: rgba(0,0,0,0.5);
 		width: 234px;
 		padding: 20px 0px;
-		z-index: 10;
+		z-index: 60;
 	}
 	.home .lun .lun-lu li{
 		padding-left: 30px;
 		padding-right: 20px;
 		line-height: 40px;
 	}
-	.home .lun .lun-lu ul li:hover{
+	.home .lun .lun-lu ul li.active{
 		background-color: #ff6700;
 	}
 	.home .lun .lun-lu li a{
@@ -273,68 +273,143 @@
 		float: right;
 		color: #b8bdbb;
 	}
-	.home .lun .lun-con{
-		position: relative;
-		width: 1226px;
-		height: 460px;
+	.home .lun .cate-box{
+		/*height: 450px;*/
 	}
-	.home .lun .lun-con img{
+	.home .lun .cate-content{
+		display: none;
 		position: absolute;
-		width: 1226px;
-		height: 460px;
-	}
-	.home .lun .lun-con .lun-icon{
-		position: absolute;
-		width: 42px;
-		height: 68px;
-		color: #d2d5d1;
-	}
-	.home .lun .lun-con i{
-		font-size: 28px;
-		line-height: 68px;
-		margin-left: 10px;
-	}
-	.home .lun .lun-con .lun-icon-left{
-		top: 194px;
+		top: 0px;
 		left: 234px;
-		border-top-right-radius: 3px;
-		border-bottom-right-radius: 3px;
-	}
-	.home .lun .lun-con .lun-icon-left:hover{
-		background-color: #70767b;
-		color: #fff;
-	}
-	.home .lun .lun-con .lun-icon-right{
-		top: 194px;
-		right: 0px;
-		border-top-left-radius: 3px;
-		border-bottom-left-radius: 3px;
-	}
-	.home .lun .lun-con .lun-icon-right:hover{
-		background-color: #70767b;
-		color: #fff;
-	}
-	.home .lun .lun-dian{
-		position: absolute;
-		right: 55px;
-		bottom: 25px;
-		width: 80px;
-		height: 10px;
-	}
-	.home .lun .lun-dian li{
-		width: 10px;
-		height: 10px;
-		border-radius: 5px;
-		float: left;
-		margin-right: 10px;
-		background-color: #7d8c98;
-		border: 2px solid #a4afb7;
+		min-width: 516px;
+		height: 100%;
+		background-color: #fff;
+		z-index: 100;
+		box-shadow: 2px 0px 3px rgba(0,0,0,0.4);
+		padding: 10px 20px;
 		box-sizing: border-box;
 	}
-	.home .lun .lun-dian li:hover{
-		background-color: #e3f4fd;
-		border-color: #889298;
+	.home .lun .cate-content li{
+		width: 238px;
+		float: left;
 	}
+	.home .lun .cate-content li:hover a{
+		color: #ff6700;
+	}
+	.home .lun .cate-content li img{
+		width: 60px;
+		height: 60px;
+		vertical-align: middle;
+	}
+	/*轮播图引用样式*/
+	.leftBtn{
+		width: 40px;
+		height: 60px;
+		background-color: rgba(0,0,0,0.5);
+		top: 50%;
+		margin-top: -30px;
+		left: 234px;
+		text-align: center;
+		line-height: 60px;
+		font-size: 30px;
+		color: #fff;
+		cursor: pointer;
+		user-select: none;
+	}
+	.rightBtn{
+		width: 40px;
+		height: 60px;
+		background-color: rgba(0,0,0,0.5);
+		top: 50%;
+		margin-top: -30px;
+		right: 0px;
+		text-align: center;
+		line-height: 60px;
+		font-size: 30px;
+		color: #fff;
+		cursor: pointer;
+		user-select: none;
+	}
+	.bottomBtn{
+		bottom: 10px;
+		/*left: 50%;*/
+		right: 10px;
+	}
+	.bottomBtn li{
+		width: 20px;
+		height: 20px;
+		border-radius: 50%;
+		margin-right: 10px;
+		background-color: rgba(0,0,0,0.5);
+		float: left;
+	}
+	.bottomBtn li.active{
+		background-color: rgba(0,0,0,0.8)
+	}
+	/*轮播图引用样式结束*/
+	/*轮播图以前的样式*/
+		/*.home .lun .lun-con{
+			position: relative;
+			width: 1226px;
+			height: 460px;
+		}
+		.home .lun .lun-con img{
+			position: absolute;
+			width: 1226px;
+			height: 460px;
+		}
+		.home .lun .lun-con .lun-icon{
+			position: absolute;
+			width: 42px;
+			height: 68px;
+			color: #d2d5d1;
+		}
+		.home .lun .lun-con i{
+			font-size: 28px;
+			line-height: 68px;
+			margin-left: 10px;
+		}
+		.home .lun .lun-con .lun-icon-left{
+			top: 194px;
+			left: 234px;
+			border-top-right-radius: 3px;
+			border-bottom-right-radius: 3px;
+		}
+		.home .lun .lun-con .lun-icon-left:hover{
+			background-color: #70767b;
+			color: #fff;
+		}
+		.home .lun .lun-con .lun-icon-right{
+			top: 194px;
+			right: 0px;
+			border-top-left-radius: 3px;
+			border-bottom-left-radius: 3px;
+		}
+		.home .lun .lun-con .lun-icon-right:hover{
+			background-color: #70767b;
+			color: #fff;
+		}
+		.home .lun .lun-dian{
+			position: absolute;
+			right: 55px;
+			bottom: 25px;
+			width: 80px;
+			height: 10px;
+		}
+		.home .lun .lun-dian li{
+			width: 10px;
+			height: 10px;
+			border-radius: 5px;
+			float: left;
+			margin-right: 10px;
+			background-color: #7d8c98;
+			border: 2px solid #a4afb7;
+			box-sizing: border-box;
+		}
+		.home .lun .lun-dian li:hover{
+			background-color: #e3f4fd;
+			border-color: #889298;
+		}*/
 	.home .hot{
 		/*height: 170px;*/
 		margin-top: 14px;
