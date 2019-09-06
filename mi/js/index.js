@@ -3,6 +3,7 @@ handleCart();
 handleNvbcontent();
 handleCarousel();
 handleCate();
+handleTimeDown();
 
 //购物车交互功能 loader
 function handleCart(){
@@ -144,4 +145,23 @@ function handleCate(){
 		    html += '</ul>';
 		oCateContent.innerHTML = html;
 	}
+}
+
+//实现倒计时
+function handleTimeDown(){
+	var aTimeDown =document.querySelectorAll('.shooping .sh-bottom .team');
+	var timer=0;
+	var endDate = new Date('2019-09-06 17:30:00');
+	var endTime = endDate.getTime();
+	function handleTime(){
+		var allTime = parseInt((endTime-Date.now())/1000);
+		var iHour = parseInt(allTime/3600);
+		var iMinite = parseInt((allTime%3600)/60);
+		var iSecond = parseInt((allTime%3600)%60);
+		aTimeDown[0].innerHTML = iHour;
+		aTimeDown[1].innerHTML = iMinite;
+		aTimeDown[2].innerHTML = iSecond;
+	}
+	timer = setInterval(handleTime,500);
+	handleTime();
 }
