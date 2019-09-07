@@ -149,18 +149,25 @@ function handleCate(){
 
 //实现倒计时
 function handleTimeDown(){
+	function to2Str(num){
+		return num < 10 ? '0' + num : ''+num;
+	}
 	var aTimeDown =document.querySelectorAll('.shooping .sh-bottom .team');
 	var timer=0;
-	var endDate = new Date('2019-09-06 17:30:00');
+	var endDate = new Date('2019-09-07 14:00:00');
 	var endTime = endDate.getTime();
 	function handleTime(){
 		var allTime = parseInt((endTime-Date.now())/1000);
+		if (allTime<0) {
+			allTime = 0;
+			clearTimeout(timer)
+		}
 		var iHour = parseInt(allTime/3600);
 		var iMinite = parseInt((allTime%3600)/60);
 		var iSecond = parseInt((allTime%3600)%60);
-		aTimeDown[0].innerHTML = iHour;
-		aTimeDown[1].innerHTML = iMinite;
-		aTimeDown[2].innerHTML = iSecond;
+		aTimeDown[0].innerHTML = to2Str(iHour);
+		aTimeDown[1].innerHTML = to2Str(iMinite);
+		aTimeDown[2].innerHTML = to2Str(iSecond);
 	}
 	timer = setInterval(handleTime,500);
 	handleTime();
