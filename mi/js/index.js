@@ -70,7 +70,6 @@ function handleNvbcontent(){
 		hideTimer = setTimeout(function(){
 			oNvbContent.style.borderTop='1px solid #ccc';
 			animation(oNvbContent,{height:0},true,function(){
-				console.log('asdfaf')
 				oNvbContent.style.borderTop = '';
 			});
 		},500)
@@ -103,7 +102,7 @@ function handleCarousel(){
 		aImg:['images/carousel1.jpg','images/carousel2.jpg','images/carousel3.jpg','images/carousel4.jpg'],
 		width:1226,
 		height:450,
-		autoPlayTime:4000
+		autoPlayTime:1000
 	})
 }
 

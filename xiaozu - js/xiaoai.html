@@ -21,49 +21,70 @@
 				<h1>小爱开放平台</h1>
 			</a>
 			<ul class="top-list">
-				<li><a href="javascript:;" id="btn1">技能平台</a></li>
-				<li><a href="javascript:;" id="btn2">语音服务</a></li>
-				<li><a href="javascript:;" id="btn3">资源中心</a></li>
+				<li id="btn1">
+					<a href="javascript:;" class="topbtn">技能平台</a>
+					<div id="box1">
+						<ul>
+							<li class="liov"><a href="javascript:;">首页</a></li>
+							<li class="liov"><a href="javascript:;">控制台</a></li>
+							<li class="liov"><a href="javascript:;">新手教程</a></li>
+						</ul>
+					</div>
+				</li>
+				<li id="btn2">
+					<a href="javascript:;" class="topbtn">语音服务</a>
+					<div id="box2">
+						<ul>
+							<li class="liov liovw"><a href="javascript:;">解决方案</a></li>
+							<li class="liov liovt"><a href="javascript:;">全部</a></li>
+							<li class="liov liovh liovw"><a href="javascript:;">开发者</a></li>
+							<li class="liov"><a href="javascript:;">智能音响</a></li>
+							<li class="liov"><a href="javascript:;">智能电视</a></li>
+							<li class="liov liovh"><a href="javascript:;">控制台</a></li>
+							<li class="liov"><a href="javascript:;">智能车载</a></li>
+							<li class="liov"><a href="javascript:;">智能穿戴</a></li>
+							<li class="liov liovh"><a href="javascript:;">新手指南</a></li>
+							<li class="liov"><a href="javascript:;">智能手机</a></li>
+							<li class="liov"><a href="javascript:;">儿童设备</a></li>
+							<li class="liov liovh"><a href="javascript:;">常见问题</a></li>
+						</ul>
+					</div>
+				</li>
+				<li id="btn3">
+					<a href="javascript:;" class="topbtn">资源中心</a>
+					<div id="box3">
+						<ul>
+							<li class="liov"><a href="javascript:;">文档中心</a></li>
+							<li class="liov"><a href="javascript:;">蓝牙服务</a></li>
+							<li class="liov"><a href="javascript:;">常见问题</a></li>
+						</ul>
+					</div>
+				</li>
 				<li><a href="javascript:;">小爱论坛</a></li>
 				<li><a href="javascript:;">联系我们</a></li>
 				<li><a href="javascript:;">激励计划</a></li>
-				<li class="top-kzt" id="btn4"><a href="javascript:;">控制台</a></li>
+				<li id="btn4" class="top-kzt">
+					<a href="javascript:;">控制台</a>
+					<div id="box4">
+						<ul>
+							<li class="liov"><a href="javascript:;">技能开发</a></li>
+							<li class="liov"><a href="javascript:;">语音服务</a></li>
+						</ul>
+					</div>
+				</li>
 			</ul>
 			<!-- <button>登录</button> -->
 			<input type="button" value="登录">
-			<!-- <div id="box1">
-				<ul>
-					<li class="liov"><a href="javascript:;">首页</a></li>
-					<li class="liov"><a href="javascript:;">控制台</a></li>
-					<li class="liov"><a href="javascript:;">新手教程</a></li>
-				</ul>
-			</div> -->
-			<div id="box2">
-				<ul>
-					<li class="liov"></li>
-				</ul>
-			</div>
-			<div id="box3">
-				<ul>
-					<li class="liov"></li>
-				</ul>
-			</div>
-			<div id="box4">
-				<ul>
-					<li class="liov"></li>
-				</ul>
-			</div>
 		</div>
 	</div>
 <!--header区域-->
 	<div class="header clearfix">
-		<div class="container">
-			<ul class="header-ul">
+			<div id="carousel" class="carousel"></div>
+			<!-- <ul class="header-ul">
 				<li class="header-list" id="header-list"></li>
 				<li></li>
 				<li></li>
-			</ul>
-		</div>
+			</ul> -->
 	</div>
 <!--main-1区域-->
 	<div class="main-1">
@@ -417,6 +438,7 @@
 					</svg>
 				</dd>
 			</dl>
+			<img src="http://land.xiaomi.net/mcfe/shuidi/da36780546f71182494441ac4c6291bf.jpg" >
 		</div>
 	</div>
 <!--bottom区域-->
@@ -439,5 +461,7 @@
 </div>
 </body>
 <script src="css/iconfont/iconfont.js"></script>
-<!-- <script src="js/xiaoai.js"></script> -->
+<script src="js/data.js"></script>
+<script src="js/util.js"></script>
+<script src="js/xiaoai.js"></script>
 </html>
