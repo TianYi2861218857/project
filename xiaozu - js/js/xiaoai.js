@@ -1,6 +1,7 @@
 topicon();
 toplistcont();
 handleCarousel();
+weixin();
 // top区域
 function toplistcont(){
 	var oBtn1=document.getElementById('btn1');
@@ -54,4 +55,14 @@ function topicon(){
 		}
 	}
 }
-	
+//微信二维码
+function weixin(){
+	var oMig = document.querySelector('.footer img');
+	var oWbtn = document.getElementById('weixin');
+	oWbtn.onmouseenter = function(){
+		oMig.style.display = 'block';
+	}
+	oWbtn.onmouseleave = function(){
+		oMig.style.display = 'none';
+	}
+}

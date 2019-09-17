@@ -448,6 +448,7 @@
 		background-color: #333333;
 		padding: 30px 20px;
 		box-sizing: border-box;
+		position: relative; 
 	}
 	.ft-bt-dl{
 		float: left;
@@ -472,6 +473,14 @@
 	}
 	.ft-bt-dl svg{
 		font-size: 26px;
+	}
+	.footer img{
+		width: 150px;
+		height: 150px;
+		position: absolute;
+		top: -35px;
+		right: 330px;
+		display: none;
 	}
 /*bottom区域*/
 	.bottom{

@@ -3,74 +3,133 @@
 <head>
 	<meta charset="UTF-8">
 	<title>cs</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/font.css">
 	<style>
-		.leftBtn{
-		width: 40px;
-		height: 60px;
-		top: 50%;
-		margin-top: -30px;
-		left: 234px;
-		text-align: center;
-		line-height: 60px;
-		font-size: 36px;
-		color: #ccc;
-		cursor: pointer;
-		user-select: none;
+	.cate-box{
+		width: 992px;
 	}
-	.leftBtn:hover{
-		background-color: rgba(0,0,0,0.5);
-		color: #fff;
+	a{
+		text-decoration:none;
 	}
-	.rightBtn{
-		width: 40px;
-		height: 60px;
-		top: 50%;
-		margin-top: -30px;
-		right: 0px;
-		text-align: center;
-		line-height: 60px;
-		font-size: 36px;
-		color: #ccc;
-		cursor: pointer;
-		user-select: none;
-	}
-	.rightBtn:hover{
-		background-color: rgba(0,0,0,0.5);
-		color: #fff;
-	}
-	.bottomBtn{
-		bottom: 10px;
-		/*left: 50%;*/
-		right: 10px;
-	}
-	.bottomBtn li{
-		width: 10px;
-		height: 10px;
-		border-radius: 50%;
-		margin-right: 10px;
-		background-color: #7f7f96;
-		border: 2px solid #a6a6b6;
+	.lun-lu{
+		position: absolute;
+		float: left;
+		background-color: #fff;
+		width: 234px;
+		padding: 20px 0px;
+		z-index: 60;
+		border: 1px solid #ff6700;
 		box-sizing: border-box;
+	}
+	.lun-lu li{
+		padding-left: 30px;
+		padding-right: 20px;
+		line-height: 40px;
+	}
+	.lun-lu ul li.active{
+		background-color: #ff6700;
+	}
+	.lun-lu li a{
+		font-size: 14px;
+		color: #424242;
+	}
+	.lun-lu li a i{
+		float: right;
+		color: #b8bdbb;
+	}
+	.cate-box{
+		/*height: 450px;*/
+	}
+	.cate-content{
+		display: none;
+		position: absolute;
+		top: 0px;
+		left: 234px;
+		min-width: 516px;
+		height: 452px;
+		background-color: #fff;
+		z-index: 100;
+		box-shadow: 2px 0px 3px rgba(0,0,0,0.4);
+		padding: 10px 20px;
+		box-sizing: border-box;
+	}
+	.cate-content li{
+		width: 238px;
 		float: left;
 	}
-	.bottomBtn li.active{
-		background-color: rgba(235,235,235,0.9);
+	.cate-content li:hover a{
+		color: #ff6700;
+	}
+	.cate-content li img{
+		width: 60px;
+		height: 60px;
+		vertical-align: middle;
 	}
 	</style>
 </head>
 <body>
-	<div class="box"></div>
+	<div class="cate-box">
+		<div class="lun-lu cate">
+			<ul>
+				<li class="cate-item"><a href="Javascript:;">手机 电话卡1<i class="iconfont">&#xe623;</i></a></li>
+				<li class="cate-item"><a href="Javascript:;">电视 盒子<i class="iconfont">&#xe623;</i></a></li>
+				<li class="cate-item"><a href="Javascript:;">笔记本 平板<i class="iconfont">&#xe623;</i></a></li>
+				<li class="cate-item"><a href="Javascript:;">家电 插线板<i class="iconfont">&#xe623;</i></a></li>
+				<li class="cate-item"><a href="Javascript:;">出行 穿戴<i class="iconfont">&#xe623;</i></a></li>
+				<li class="cate-item"><a href="Javascript:;">智能 路由器<i class="iconfont">&#xe623;</i></a></li>
+				<li class="cate-item"><a href="Javascript:;">电源 配件<i class="iconfont">&#xe623;</i></a></li>
+				<li class="cate-item"><a href="Javascript:;">健康 儿童<i class="iconfont">&#xe623;</i></a></li>
+				<li class="cate-item"><a href="Javascript:;">耳机 音响<i class="iconfont">&#xe623;</i></a></li>
+				<li class="cate-item"><a href="Javascript:;">生活 箱包<i class="iconfont">&#xe623;</i></a></li>
+			</ul>
+		</div>
+		<div class="cate-content">
+			
+		</div>
+	</div>
 </body>
+<script src="js/data.js"></script>
+<script src="js/util.js"></script>
 <script>
-	function handleCarousel(){
-		//创建对象
-		new Carousel({
-			id:'carousel',
-			aImg:['images/carousel1.jpg','images/carousel2.jpg','images/carousel3.jpg','images/carousel4.jpg'],
-			width:1226,
-			height:450,
-			autoPlayTime:1000
-		})
+	handleCate();
+	function handleCate(){
+		var aCateItem = document.querySelectorAll('.cate .cate-item');
+		var oCateContent = document.querySelector('.cate-box .cate-content');
+		var oCartBox = document.querySelector('.cate-box');
+		for(var i=0;i<aCateItem.length;i++){
+			aCateItem[i].index = i;
+			aCateItem[i].onmouseenter = function(){
+				for(var j=0;j<aCateItem.length;j++){
+					aCateItem[j].className = 'cate-item';
+				}
+				this.className = 'cate-item active';
+				oCateContent.style.display = 'block';
+				//加载数据
+				loadData(this.index);
+			}
+		}
+		oCartBox.onmouseleave = function(){
+			oCateContent.style.display = 'none'
+			for(var j=0;j<aCateItem.length;j++){
+				aCateItem[j].className = 'cate-item';
+			}
+		}
+		function loadData(index){
+			//通过下标获取对应的数据
+			var data = aCateContentData[index];
+			var html = '<ul>';
+			for(var i=0;i<data.length;i++){
+				html += '<li>';
+				html += '	<a href="'+data[i].url+'">';
+				html += '		<img src="'+data[i].img+'">';
+				html += '		<span>'+data[i].name+'</span>';
+				html += '	</a>';
+				html += '</li>';
+			}
+			    html += '</ul>';
+			oCateContent.innerHTML = html;
+		}
 	}
 </script>
 </html>

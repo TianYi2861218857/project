@@ -21,21 +21,46 @@
 		line-height: 40px;
 		text-align: center;
 	}
+	.top .top-cart a{
+		display: inline-block;
+		width: 100%;
+		height: 100%;
+	}
 	.top .top-cart i{
 		font-size: 20px;
 	}
 	.top .top-cart span{
 		vertical-align: 3px;
 	}
-	.top .top-cart:hover a{
+	/*.top .top-cart:hover a{
 		color: #ff6700;
 	}
 	.top .top-cart:hover{
 		background-color: #fff;
+	}*/
+	.cart-js{
+		position: absolute;
+		top: 40px;
+		right: 338px;
+		width: 320px;
+		height: 0px;
+		background-color: #fff;
+		z-index: 99;
+		box-shadow: 0px 3px 4px 0px rgba(0,0,0,0.3);
+		overflow: hidden;
+	}
+	.top .top-cart .cart-js span{
+		display: none;
+		margin-top: 35px;
+		font-size: 12px;
+	}
+	.top .top-cart .cart-js .loader{
+		display: none;
+		margin-top: 35px;
 	}
 	.top .top-two{
 		float: right;
-		width: 79px;
+		width: 155px;
 		height: 40px;
 		/*background-color: blue;*/
 	}
@@ -45,13 +70,18 @@
 	}
 /*header区域*/
 	.header{
-		height: 115px;
+		height: 100px;
+		/*position: relative;*/
 	}
 	.header .logo1{
 		float: left;
 		width: 55px;
 		height: 55px;
 		margin-top: 22px;
+	}
+	.header .nvbtop{
+		width: 160px;
+		padding-left: 55px;
 	}
 	.header .nvbtop a{
 		float: left;
@@ -60,6 +90,67 @@
 		line-height: 100px;
 		margin-left: 60px;
 	}
+	/*全部商品下拉菜单开始*/
+	.lun-lu{
+		position: absolute;
+		float: left;
+		top: 130px;
+		left: 339px;
+		background-color: #fff;
+		width: 234px;
+		padding: 20px 0px;
+		z-index: 60;
+		border: 1px solid #ff6700;
+		box-sizing: border-box;
+		display: none;
+	}
+	.lun-lu li{
+		padding-left: 30px;
+		padding-right: 20px;
+		line-height: 40px;
+	}
+	.lun-lu ul li.active{
+		background-color: #ff6700;
+	}
+	.lun-lu li a{
+		font-size: 14px;
+		color: #424242;
+	}
+	.lun-lu li a i{
+		float: right;
+		color: #b8bdbb;
+	}
+	.cate-content{
+		display: none;
+		position: absolute;
+		top: 129px;
+		left: 573px;
+		min-width: 516px;
+		max-width: 996px;
+		height: 452px;
+		background-color: #fff;
+		z-index: 100;
+		box-shadow: 2px 0px 3px rgba(0,0,0,0.4);
+		padding: 10px 20px;
+		box-sizing: border-box;
+	}
+	.cate-content span{
+		color: #000;
+		font-size: 14px;
+	}
+	.cate-content li{
+		width: 238px;
+		float: left;
+	}
+	.cate-content li:hover a{
+		color: #ff6700;
+	}
+	.cate-content li img{
+		width: 60px;
+		height: 60px;
+		vertical-align: middle;
+	}
+	/*全部商品下拉菜单结束*/
 	.header .header-nvb{
 		float: left;
 		/*width: 781px;*/
@@ -80,7 +171,7 @@
 	}
 	.header .header-nvb-content{
 		position: absolute;
-		top: 140px;
+		top: 130px;
 		height: 0px;
 		width: 100%;
 		z-index: 100;

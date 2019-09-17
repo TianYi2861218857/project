@@ -1,22 +1,34 @@
 handleNvbcontent();
-
-// top区域
-	var oBtn1=document.getElementById('btn1')
-	var oBtn2=document.getElementById('btn2')
-	var oBtn3=document.getElementById('btn3')
-	var oBtn4=document.getElementById('btn4')
-	var oBox1=document.getElementById('box1')
-	var oBox2=document.getElementById('box2')
-	var oBox3=document.getElementById('box3')
-	var oBox4=document.getElementById('box4')
-	oBtn.onclick= function(){
-		if (oBox.style.display == 'none') {
-			oBox.style.display = 'block';
-		}else{
-			oBox.style.display = 'none';
-		}
+handleCate();
+handleCart();
+//购物车
+function handleCart(){
+	//1.获取元素
+	var oCart = document.querySelector('.top .top-cart');
+	var oCartBox = document.querySelector('.top .top-cart a');
+	var oCartContent = document.querySelector('.top .top-cart .cart-js');
+	var oLoader = document.querySelector('.loader');
+	var oSpan = document.querySelector('.top .top-cart .cart-js span');
+	//2.绑定事件
+	oCart.onmouseenter = function(){
+		oLoader.style.display = 'block';
+		oCartBox.style.backgroundColor = '#fff';
+		oCartBox.style.color = '#ff6700';
+		// oCartContent.style.height = 100+'px';
+		animate3(oCartContent,{height:100},true,function(){
+			oLoader.style.display = 'none';
+			oSpan.style.display = 'block';
+		});
 	}
-//header区域
+	oCart.onmouseleave = function(){
+		oCartBox.style.backgroundColor = '#424242';
+		oCartBox.style.color = '#b0b0b0';
+		animate3(oCartContent,{height:0},true,function(){
+			oLoader.style.display = 'none';
+			oSpan.style.display = 'none';
+		});
+	}
+}
 //下拉菜单交互功能
 function handleNvbcontent(){
 	//1.获取元素
@@ -75,5 +87,58 @@ function handleNvbcontent(){
 
 		html += '</ul>'
 		oNvbContentBox.innerHTML = html;
+	}
+}
+//全部商品分类
+function handleCate(){
+	var oBtnsp = document.querySelector('.header .nvbtop a');
+	var oBoxLi = document.querySelector('.lun-lu');
+	
+	var aCateItem = document.querySelectorAll('.cate .cate-item'); //列表里每个li
+	var oCateContent = document.querySelector('.cate-box .cate-content'); //内容
+	var oCartBox = document.querySelector('.cate-box');  //大盒子
+	//显示列表栏
+	oBtnsp.onmouseenter =function(){
+		oBoxLi.style.display = 'block';
+	}
+	oBtnsp.onmouseleave =function(){
+		oBoxLi.style.display = 'none';
+	}
+	for(var i=0;i<aCateItem.length;i++){
+		aCateItem[i].index = i;
+		aCateItem[i].onmouseenter = function(){
+			for(var j=0;j<aCateItem.length;j++){
+				aCateItem[j].className = 'cate-item';
+			}
+			this.className = 'cate-item active';
+			oCateContent.style.display = 'block';
+			//加载数据
+			loadData(this.index);
+		}
+	}
+	oCartBox.onmouseenter =function(){
+		oBoxLi.style.display = 'block';
+	}
+	oCartBox.onmouseleave = function(){
+		oCateContent.style.display = 'none'
+		oBoxLi.style.display = 'none';
+		for(var j=0;j<aCateItem.length;j++){
+			aCateItem[j].className = 'cate-item';
+		}
+	}
+	function loadData(index){
+		//通过下标获取对应的数据
+		var data = aCateContentData[index];
+		var html = '<ul>';
+		for(var i=0;i<data.length;i++){
+			html += '<li>';
+			html += '	<a href="'+data[i].url+'">';
+			html += '		<img src="'+data[i].img+'">';
+			html += '		<span>'+data[i].name+'</span>';
+			html += '	</a>';
+			html += '</li>';
+		}
+		    html += '</ul>';
+		oCateContent.innerHTML = html;
 	}
 }
