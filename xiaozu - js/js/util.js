@@ -28,7 +28,7 @@ function animate(obj,attr,target){
                 obj.style[attr] = current+iSpeed +'px';
             }     
         }
-    },30)
+    },20)
 }
 
 //减速动画

@@ -1,6 +1,29 @@
 handleNvbcontent();
 handleCate();
 handleCart();
+popout();
+//弹框
+function popout(){
+	//下载APP
+	var oApp = document.querySelector('#xiazaiapp');
+	var oAppBox = document.querySelector('.appbox');
+	oApp.onmouseenter = function(){
+		oAppBox.style.display = 'block';
+	}
+	oApp.onmouseleave = function(){
+		oAppBox.style.display = 'none';	
+	}
+
+	//logo
+	var oLogo = document.querySelector('.logo1');
+	var oLogoBox = document.querySelector('.logobox');
+	oLogo.onmouseenter=function(){
+		animate(oLogoBox,'left',0);
+	}
+	oLogo.onmouseleave=function(){
+		animate(oLogoBox,'left',-55);
+	}
+}
 //购物车
 function handleCart(){
 	//1.获取元素
@@ -65,7 +88,6 @@ function handleNvbcontent(){
 		hideTimer = setTimeout(function(){
 			oNvbContent.style.borderTop='1px solid #ccc';
 			animation(oNvbContent,{height:0},true,function(){
-				console.log('asdfaf')
 				oNvbContent.style.borderTop = '';
 			});
 		},500)

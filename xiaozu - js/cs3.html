@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>logo</title>
+</head>
+<body>
+	<div id="box">
+		<img src="images/logo.png" alt="">
+	</div>
+	
+</body>
+<script>
+	var oBox = document.getElementById('box');
+	var oImg = document.querySelector('#box img');
+	console.log(oBox)
+	console.log(oImg)
+	oImg.onmouseenter=function(){
+		oImg.src = "images/logo"+"1"+".png"
+	}
+	oImg.onmouseleave=function(){
+		oImg.src = "images/logo.png"
+	}
+</script>
+</html>
