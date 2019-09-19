@@ -517,7 +517,9 @@
 	    margin-left: 10px;
 	}
 	.appbox1{
-		position: relative;
+		position: absolute;
+		display: none;
+		left: 482px;
 		width: 580px;
 		height: 238px;
 		z-index: 999;
@@ -528,24 +530,26 @@
 	}
 	.box1{
 		margin-left: 285px;
-		margin-top: 2px;
+		margin-top: 3px;
 		width: 10px;
 		height: 10px;
-		background-color: red;
+		background-color: #fff;
 		transform: rotate(45deg);
 		box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.2);
 	}
-	.erbox{
+	.erbox1{
 		position: absolute; 
-		height: 232px;
+		top: 6px;
+		height: 178px;
+		width: 540px;
 		background-color: #fff;
 		box-shadow: 0px 3px 2px 2px rgba(0,0,0,0.2);
 		padding: 54px 0px 0px 40px;
 	}
-	.erbox div{
+	.erbox1 div{
 		font-size: 12px;
 	}
-	.erbox>div{
+	.erbox1>div{
 		color: #000;
 	}
 	.apphui{

@@ -153,291 +153,851 @@ var aCateContentData =[
 	[
 		{
 			url:"https://www.kuazhu.com",
-			img:"images/shouji1.jpg",
+			img:"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cba27e53367b74271a38a4515a692816.png?width=80&height=80",
 			name:"小米手机1-1"
 		},
 		{
 			url:"https://www.kuazhu.com",
-			img:"images/shouji1.jpg",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/ebff4a3d7ac1df43737d195cd38a2a37.png?width=80&height=80",
 			name:"小米手机1-2"
 		},
 		{
 			url:"https://www.kuazhu.com",
-			img:"images/shouji1.jpg",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/b04a1e68b00130a879fa75865fb7c4b1.jpg?width=80&height=80",
 			name:"小米手机1-3"
 		},
 		{
 			url:"https://www.kuazhu.com",
-			img:"images/shouji1.jpg",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/5c483e65040470208823a8bfb5d73c27.jpg?width=80&height=80",
 			name:"小米手机1-4"
 		},
 		{
 			url:"https://www.kuazhu.com",
-			img:"images/shouji1.jpg",
+			img:"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/b4534b9fd22f478314f3cbbf286b7338.png?width=80&height=80",
 			name:"小米手机1-5"
 		},
 		{
 			url:"https://www.kuazhu.com",
-			img:"images/shouji1.jpg",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/9e83fabc3efeb8dd9f880ce26220c294.png?width=80&height=80",
 			name:"小米手机1-6"
 		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cb14154721f2b239a4eff12f28b8cd93.jpg?width=80&height=80",
+			name:"小米手机1-7"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/dafced4abb82c502c087a2aca7078f48.jpg?width=80&height=80",
+			name:"小米手机1-8"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/2b0d7d2c85734b80a1b8d1a4100c9c1f.png?width=80&height=80",
+			name:"小米手机1-0"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/7ab17259cd65adb7222e856fa1996a34.png?width=80&height=80",
+			name:"小米手机1-0"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/85d746207b997873ddfcdca0da025f78.jpg?width=80&height=80",
+			name:"小米手机1-0"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/84e19ece0125992449a6276e2ba333e9.png?width=80&height=80",
+			name:"小米手机1-0"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/20e23b306f50384ab85b6658f5c963ff.jpg?width=80&height=80",
+			name:"小米手机1-0"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/fbb0bc35bd92d1fa8840762810a5cc84.png?width=80&height=80",
+			name:"小米手机1-0"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/265c87b03067bc11097db369e71bf976.png?width=80&height=80",
+			name:"小米手机1-0"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/8ade0163e9fdbd92a4b7d7ee3aeab905.jpg?width=80&height=80",
+			name:"小米手机1-0"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/3d3ee15816d2ccbe922172033c3c3941.png?width=80&height=80",
+			name:"小米手机1-0"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/eea579b45e6d01f214423c19ef76a459.png?width=80&height=80",
+			name:"小米手机1-0"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/26d1de72e958da75048be5c6cc0b73f6.jpg?width=80&height=80",
+			name:"小米手机1-0"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/1a2ed8c7ac2ab7ebfd1554a7a1ac25a6.jpg?width=80&height=80",
+			name:"小米手机1-0"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/1cce3d767b8841c237cd610833799fe3.png?width=80&height=80",
+			name:"小米手机1-0"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/82a363a6644bc3661ae5592726d4625e.jpg?width=80&height=80",
+			name:"小米手机1-0"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/7c684a08a482a61b19c8d7f9b1113f5f.png?width=80&height=80",
+			name:"小米手机1-0"
+		}
 	],
 	[
 		{
 			url:"https://www.kuazhu.com",
-			img:"images/shouji2.jpg",
-			name:"小米手机2-1"
-		},
-		{
-			url:"https://www.kuazhu.com",
-			img:"images/shouji2.jpg",
-			name:"小米手机2-2"
-		},
-		{
-			url:"https://www.kuazhu.com",
-			img:"images/shouji1.jpg",
+			img:"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/4c6f98e59f3e78eb5d959bbcff081562.jpg?width=80&height=80",
 			name:"小米手机2-3"
 		},
 		{
 			url:"https://www.kuazhu.com",
-			img:"images/shouji1.jpg",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/2f15dd9779865b48bfa8c8e915ac75ac.png?width=80&height=80",
 			name:"小米手机2-4"
 		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/7bef124bc015669bdacf76d5d4b02a7e.png?width=80&height=80",
+			name:"小米手机2-3"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/f89f8c92035e635b64a2f4a0c3ca8a9b.png?width=80&height=80",
+			name:"小米手机2-4"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/5732e8f317eb86bfcb174fbb49d00c4a.jpg?width=80&height=80",
+			name:"小米手机2-3"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/37ce1615e1e8fcbbda2b3f37c09ec676.png?width=80&height=80",
+			name:"小米手机2-4"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/24ee18218b3b98161e17abe23c6fd539.png?width=80&height=80",
+			name:"小米手机2-3"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/823ff82753067c5651cc70c8daf3021d.jpg?width=80&height=80",
+			name:"小米手机2-4"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/8aeae36f5d088f22c84b8953bd0d08b4.jpg?width=80&height=80",
+			name:"小米手机2-3"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/11e4d06f29877044ddce0f9fdd2e26d5.png?width=80&height=80",
+			name:"小米手机2-4"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/fe603cc3b9c19903be14aac4e9b571d6.jpg?width=80&height=80",
+			name:"小米手机2-3"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/45d9675f31b2c22e286284e62de35f7d.jpg?width=80&height=80",
+			name:"小米手机2-4"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/820cba6c44f7263c5fe773a7ffaf85b9.png?width=80&height=80",
+			name:"小米手机2-3"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/ca8058c9c776447265b99420ff04e544.png?width=80&height=80",
+			name:"小米手机2-4"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/53f3593ab87d90c4cc5201e10a5c42f7.png?width=80&height=80",
+			name:"小米手机2-3"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/46be9462fab23618500fda14e7e07e0f.png?width=80&height=80",
+			name:"小米手机2-4"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/ea8be80c82c273e167d5b282b17e9b2b.png?width=80&height=80",
+			name:"小米手机2-3"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/cb83515483547404cd26a962bada5d5b.png?width=80&height=80",
+			name:"小米手机2-4"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/247f20519504afe5222b5a810e30fd14.png?width=80&height=80",
+			name:"小米手机2-3"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/16278c189bb0ba0d12aae41c278fa5a1.png?width=80&height=80",
+			name:"小米手机2-4"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/a9710af2fff5548ea05950473898ef0e.jpg?width=80&height=80",
+			name:"小米手机2-3"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/af572c503ed2a81ab71e2810617860c5.jpg?width=80&height=80",
+			name:"小米手机2-4"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/0df6f56ead57cb5a90f6b81a21fb5261.jpg?width=80&height=80",
+			name:"小米手机2-3"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/554a4f8ea0c2c3ed19d843bea7321203.jpg?width=80&height=80",
+			name:"小米手机2-4"
+		}
 	],
 	[
 		{
 			url:"https://www.kuazhu.com",
-			img:"images/shouji2.jpg",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/d28f298362ba20046db1dbb0c8eb5e70.jpg?width=80&height=80",
 			name:"小米手机3-1"
 		},
 		{
 			url:"https://www.kuazhu.com",
-			img:"images/shouji2.jpg",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/03c3afaa26624708921a2875b293e866.jpg?width=80&height=80",
 			name:"小米手机3-2"
 		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/1f95bb7c9206951e3d870cb5581b8329.png?width=80&height=80",
+			name:"小米手机3-1"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/c61933e7ac89c61bc727c275391e82e0.png?width=80&height=80",
+			name:"小米手机3-2"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/eaab0db21859e0e58cae1fb807907905.jpg?width=80&height=80",
+			name:"小米手机3-1"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/62f36168a0fb318102ff74ab65e6a8fc.jpg?width=80&height=80",
+			name:"小米手机3-2"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/a3c149225946312f2b4bbe1263f65450.png?width=80&height=80",
+			name:"小米手机3-1"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/32bfcdebff3058de7bc0b2855d05c240.jpg?width=80&height=80",
+			name:"小米手机3-2"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/a66c24ee8ae2efea3ae92ec455a27352.jpg?width=80&height=80",
+			name:"小米手机3-1"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/a23f28ad195aa93679012c785db11fc2.jpg?width=80&height=80",
+			name:"小米手机3-2"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/131e5d409e62eedb94577cae11c530f1.jpg?width=80&height=80",
+			name:"小米手机3-1"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/48ec2200729879ed3e3bc01b61146d79.jpg?width=80&height=80",
+			name:"小米手机3-2"
+		}
 	],
 	[
 		{
 			url:"https://www.kuazhu.com",
-			img:"images/shouji2.jpg",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/96de94415b860f3de95b2d6294f0d0fd.png?width=80&height=80",
 			name:"小米手机4-1"
 		},
 		{
 			url:"https://www.kuazhu.com",
-			img:"images/shouji3.jpg",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/603beb09930e32addd1b362bf43c7ac2.jpg?width=80&height=80",
 			name:"小米手机4-2"
 		},
 		{
 			url:"https://www.kuazhu.com",
-			img:"images/shouji1.jpg",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/39c8ccbebd08687bc6780373b7ef2a95.jpg?width=80&height=80",
 			name:"4-3"
 		},
 		{
 			url:"https://www.kuazhu.com",
-			img:"images/shouji1.jpg",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/1cc417a7cae8c4ff8b0041fa29003717.jpg?width=80&height=80",
 			name:"4-4"
 		},
 		{
 			url:"https://www.kuazhu.com",
-			img:"images/shouji1.jpg",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/630b9e523bb2e1387ce6c7be1edaca18.png?width=80&height=80",
 			name:"小米手机4-5"
 		},
 		{
 			url:"https://www.kuazhu.com",
-			img:"images/shouji1.jpg",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/26deda5474eb7eb7e5b34547c58b9893.jpg?width=80&height=80",
 			name:"小米手机4-6"
 		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/9ffcebcacca008ed2d92a692f7312ef6.jpg?width=80&height=80",
+			name:"小米手机4-1"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/6aa1871d84aaae98cd676f5e2cf5c2f2.jpg?width=80&height=80",
+			name:"小米手机4-2"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/18723c3561252ce76c9a1b1eebc4c01c.png?width=80&height=80",
+			name:"4-3"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/e997ed31cd5199ec0a24eeb48a37b1e7.jpg?width=80&height=80",
+			name:"4-4"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/3a3e4238b70ef8db89ae77f8a3762fc8.png?width=80&height=80",
+			name:"小米手机4-5"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/ba8d2a2d383f612575d323ce159bdce3.jpg?width=80&height=80",
+			name:"小米手机4-6"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/d3bace6e62cecb7901e306b05502535f.jpg?width=80&height=80",
+			name:"小米手机4-1"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/390e15818dd103b2f96f4ac742d47379.jpg?width=80&height=80",
+			name:"小米手机4-2"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/c12fd1da9fed662842d6f5c57d7737c9.png?width=80&height=80",
+			name:"4-3"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/0bf0ba35dc3ad57115c59f0ebde0fd1d.jpg?width=80&height=80",
+			name:"4-4"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/12f4b26ced3716d07bfcc6beba751188.jpg?width=80&height=80",
+			name:"小米手机4-5"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/d93e6a98403262a506c9e9b22293cdae.jpg?width=80&height=80",
+			name:"小米手机4-6"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/c0a6b523433a492dbf32035b2983d98e.jpg?width=80&height=80",
+			name:"小米手机4-1"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/b7de8a5bc64975df73f5fde5507fc8d1.jpg?width=80&height=80",
+			name:"小米手机4-2"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/d38c628865341057d6e19a3a6a4ab88e.png?width=80&height=80",
+			name:"4-3"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/b945d8524ca8497b899f04ef957b71ec.jpg?width=80&height=80",
+			name:"4-4"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/d1c8cfb055709db380c6de981a4c894b.jpg?width=80&height=80",
+			name:"小米手机4-5"
+		}
 	],
 	[
 		{
 			url:"https://www.kuazhu.com",
-			img:"images/shouji3.jpg",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/4dd7eeff34b478acd2cf3eec99b78c96.png?width=80&height=80",
 			name:"小米手机5-1"
 		},
 		{
 			url:"https://www.kuazhu.com",
-			img:"images/shouji1.jpg",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/971c8c01a246c7ac69a4c9be9e77e832.jpg?width=80&height=80",
 			name:"小米手机1-2"
 		},
 		{
 			url:"https://www.kuazhu.com",
-			img:"images/shouji1.jpg",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/fece041c17bdebaab5f3a9313c7c0f8c.jpg?width=80&height=80",
 			name:"小米手机1-3"
 		},
 		{
 			url:"https://www.kuazhu.com",
-			img:"images/shouji1.jpg",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/e2748064a9ac9969e53851479d55f1a9.jpg?width=80&height=80",
 			name:"小米手机1-4"
 		},
 		{
 			url:"https://www.kuazhu.com",
-			img:"images/shouji1.jpg",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/50180b158690a40f9cbc684c7646d297.jpg?width=80&height=80",
 			name:"小米手机1-5"
 		},
 		{
 			url:"https://www.kuazhu.com",
-			img:"images/shouji1.jpg",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/e73568f1bfc9b92fb0302c0a1538f181.jpg?width=80&height=80",
 			name:"小米手机1-6"
 		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/4e9da27ebbeeb38078910c97173c4671.jpg?width=80&height=80",
+			name:"小米手机5-1"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/efd04d4a90822e7e2f04a365083f2607.jpg?width=80&height=80",
+			name:"小米手机1-2"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/601f0b54e805d769ab6dc1bdea93706d.jpg?width=80&height=80",
+			name:"小米手机1-3"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/8b398bad185dddb5397f2c0d9a3f6271.jpg?width=80&height=80",
+			name:"小米手机1-4"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/8ac5b263aac2ffa1894fb7b215c3ce87.jpg?width=80&height=80",
+			name:"小米手机1-5"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/6d92b9db10f261f56b2f2dfb93ca132e.jpg?width=80&height=80",
+			name:"小米手机1-6"
+		}
 	],
 	[
 		{
 			url:"https://www.kuazhu.com",
-			img:"images/shouji2.jpg",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/5ef6c2d63df78e140afab6ac3c088fac.jpg?width=80&height=80",
 			name:"小米手机6-1"
 		},
 		{
 			url:"https://www.kuazhu.com",
-			img:"images/shouji1.jpg",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/9f50ae9f7f38378e057462483c8cf65f.jpg?width=80&height=80",
 			name:"小米手机1-2"
 		},
 		{
 			url:"https://www.kuazhu.com",
-			img:"images/shouji3.jpg",
+			img:"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/b1c8b0308b1591ab93b7fe0937a52427.png?width=80&height=80",
 			name:"小米手机1-3"
 		},
 		{
 			url:"https://www.kuazhu.com",
-			img:"images/shouji2.jpg",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/067f4a6f0ffb264ed40734a97deae52d.jpg?width=80&height=80",
 			name:"小米手机1-4"
 		},
 		{
 			url:"https://www.kuazhu.com",
-			img:"images/shouji1.jpg",
+			img:"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/5a18e471294cf49b6937ae90fac6d583.png?width=80&height=80",
 			name:"小米手机1-5"
 		},
 		{
 			url:"https://www.kuazhu.com",
-			img:"images/shouji1.jpg",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/81d89cfdb72d0445ed4ef19942d9dedb.jpg?width=80&height=80",
 			name:"小米手机1-6"
 		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/50b4287ee78e7f190c5603ad7ce7e5d6.jpg?width=80&height=80",
+			name:"小米手机6-1"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/4fb7885d49255b93f7245aa53501294c.jpg?width=80&height=80",
+			name:"小米手机1-2"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/14107363b5dc77b18e9983bda999931d.jpg?width=80&height=80",
+			name:"小米手机1-3"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/feaab5bd13257dbe8f30b80b6a4472be.jpg?width=80&height=80",
+			name:"小米手机1-4"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/21fedf7ba9019bce59cbc4856f907076.jpg?width=80&height=80",
+			name:"小米手机1-5"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/90b75c1046e486c19f14effd9b45f488.png?width=80&height=80",
+			name:"小米手机1-6"
+		}
 	],
 	[
 		{
 			url:"https://www.kuazhu.com",
-			img:"images/shouji1.jpg",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/91e56808d5c6f4fb7e9d41590f8b889c.jpg?width=80&height=80",
 			name:"小米手机7-1"
 		},
 		{
 			url:"https://www.kuazhu.com",
-			img:"images/shouji1.jpg",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/5c6e60e48edf17219724faad95963b93.jpg?width=80&height=80",
 			name:"小米手机1-2"
 		},
 		{
 			url:"https://www.kuazhu.com",
-			img:"images/shouji1.jpg",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/45dd7a2c4fc3d17d5d261ed3eed7cd15.jpg?width=80&height=80",
 			name:"小米手机1-3"
 		},
 		{
 			url:"https://www.kuazhu.com",
-			img:"images/shouji2.jpg",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/e9e248c899fd895c9267f494ea1aaebf.jpg?width=80&height=80",
 			name:"小米手机1-4"
 		},
 		{
 			url:"https://www.kuazhu.com",
-			img:"images/shouji1.jpg",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/397d8119508e8e3c895fc30ece88e799.jpg?width=80&height=80",
 			name:"小米手机1-5"
 		},
 		{
 			url:"https://www.kuazhu.com",
-			img:"images/shouji1.jpg",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/826264a4845f45a0a503600f9331ab06.jpg?width=80&height=80",
 			name:"小米手机1-6"
 		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/18d288107e1a72ad3c7b3aa66a1dc780.jpg?width=80&height=80",
+			name:"小米手机7-1"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/6ce8ff4bc1e6ded2d40c53b2aa83b98c.jpg?width=80&height=80",
+			name:"小米手机1-2"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/10ec831749f1c657fc0a494feab15ed4.jpg?width=80&height=80",
+			name:"小米手机1-3"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/9c3ead590f49767a4f562b7285215f5e.jpg?width=80&height=80",
+			name:"小米手机1-4"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/2725e04c955dc060ac142fabbf809c1e.jpg?width=80&height=80",
+			name:"小米手机1-5"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/57d9989807dbc15c1a82bc49acc1f06f.jpg?width=80&height=80",
+			name:"小米手机1-6"
+		}
 	],
 	[
 		{
 			url:"https://www.kuazhu.com",
-			img:"images/shouji1.jpg",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/da43c3dd6b171ee267f1fd1ec01b9208.jpg?width=80&height=80",
 			name:"小米手机8-1"
 		},
 		{
 			url:"https://www.kuazhu.com",
-			img:"images/shouji1.jpg",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/fe6166ca2026008abb86bc67dfd8211d.jpg?width=80&height=80",
 			name:"小米手机1-2"
 		},
 		{
 			url:"https://www.kuazhu.com",
-			img:"images/shouji1.jpg",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/a2c84adc7a3620d222346068528da1b5.jpg?width=80&height=80",
 			name:"小米手机1-3"
 		},
 		{
 			url:"https://www.kuazhu.com",
-			img:"images/shouji1.jpg",
-			name:"小米手机1-4"
-		},
-		{
-			url:"https://www.kuazhu.com",
-			img:"images/shouji1.jpg",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/60d7bdf307ceaba08b3275246ad3ab53.jpg?width=80&height=80",
 			name:"小米手机1-5"
 		},
 		{
 			url:"https://www.kuazhu.com",
-			img:"images/shouji2.jpg",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/2cb10391d6527bf64126a63446a38e2e.jpg?width=80&height=80",
 			name:"小米手机1-6"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/8f200595fe0a6b4b67291970f25e4f02.jpg?width=80&height=80",
+			name:"小米手机8-1"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/320c12a501b40fa1d69d0ca3a4303129.jpg?width=80&height=80",
+			name:"小米手机1-3"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/ab36232a1004421e1a5b3efd0b9226c0.jpg?width=80&height=80",
+			name:"小米手机1-4"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/12235daeb49fd45e709e68c7dacd3336.jpg?width=80&height=80",
+			name:"小米手机1-5"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/15447769c461fdc71e84a7badb83f09b.jpg?width=80&height=80",
+			name:"小米手机1-6"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/c9a5feb1f6c9b9aa0dc998c17e5eb3e9.jpg?width=80&height=80",
+			name:"小米手机8-1"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/d55c8943ceac7cd5ac7d8aa052f69b93.jpg?width=80&height=80",
+			name:"小米手机1-2"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/bba7ce79f4d61939c69b7a26bf507bae.jpg?width=80&height=80",
+			name:"小米手机1-3"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/a0b3a592784632760a7ef25de50147a7.jpg?width=80&height=80",
+			name:"小米手机1-4"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/17d625c8b5466b9527e9c06c71601939.jpg?width=80&height=80",
+			name:"小米手机1-5"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/459afd0eb2a3bc6313e7ac62bd3a52df.png?width=80&height=80",
+			name:"小米手机1-6"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/9f6a34ed8071b821ee5aa8d32a7be95d.jpg?width=80&height=80",
+			name:"小米手机8-1"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/81737be7672dfa85cbb3abc65669f091.jpg?width=80&height=80",
+			name:"小米手机1-2"
 		},
 	],
 	[
 		{
 			url:"https://www.kuazhu.com",
-			img:"images/shouji1.jpg",
+			img:"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/360215a1e32317abb912d48c3e80dd20.png?width=80&height=80",
 			name:"小米手机9-1"
 		},
 		{
 			url:"https://www.kuazhu.com",
-			img:"images/shouji1.jpg",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/4885bda69e45b870a5bcf5bbaea1548b.jpg?width=80&height=80",
 			name:"小米手机1-2"
 		},
 		{
 			url:"https://www.kuazhu.com",
-			img:"images/shouji1.jpg",
+			img:"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/374ce749560e0e74a792b6222048a472.png?width=80&height=80",
 			name:"小米手机1-3"
 		},
 		{
 			url:"https://www.kuazhu.com",
-			img:"images/shouji2.jpg",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/f7c7a9d73fb7b3cf93d3ae0dc2849f5e.jpg?width=80&height=80",
 			name:"小米手机1-4"
 		},
 		{
 			url:"https://www.kuazhu.com",
-			img:"images/shouji2.jpg",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/3d5963e212402fa5ebd2e71dd10c426c.jpg?width=80&height=80",
 			name:"小米手机1-5"
 		},
 		{
 			url:"https://www.kuazhu.com",
-			img:"images/shouji1.jpg",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/db89d422ef877cf7290616fef515e413.jpg?width=80&height=80",
 			name:"小米手机1-6"
 		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/8b3d235f4a5a5bf5c9d8d066d2166e6c.jpg?width=80&height=80",
+			name:"小米手机9-1"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/a290d924c1bbd1e3ce64e96f497d4059.jpg?width=80&height=80",
+			name:"小米手机1-2"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/649f781dd8595272ac3885f064205114.jpg?width=80&height=80",
+			name:"小米手机1-3"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/cebeb2536e051c4792b57c07bf404c21.jpg?width=80&height=80",
+			name:"小米手机1-4"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/28a77451da1dbd0d3e42d529777997c3.jpg?width=80&height=80",
+			name:"小米手机1-5"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/abe665fafbef94eb3626ae8baf1de97e.jpg?width=80&height=80",
+			name:"小米手机1-6"
+		}
 	],
 	[
 		{
 			url:"https://www.kuazhu.com",
-			img:"images/shouji1.jpg",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/f628feba0f2f8253f9cc41f9984194a7.jpg?width=80&height=80",
 			name:"小米手机10-2"
 		},
 		{
 			url:"https://www.kuazhu.com",
-			img:"images/shouji2.jpg",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/aba45662667dceaf4ba0e5b08f44d3a7.jpg?width=80&height=80",
 			name:"小米手机1-2"
 		},
 		{
 			url:"https://www.kuazhu.com",
-			img:"images/shouji2.jpg",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/395ffd04841f70b8bdf67339ba1dfc98.jpg?width=80&height=80",
 			name:"小米手机1-3"
 		},
 		{
 			url:"https://www.kuazhu.com",
-			img:"images/shouji1.jpg",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/5763f4e2fd983cd30d4976cc438f9d1e.jpg?width=80&height=80",
 			name:"小米手机1-4"
 		},
 		{
 			url:"https://www.kuazhu.com",
-			img:"images/shouji1.jpg",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/744306b95df4d130bdfc346ff2b3c871.png?width=80&height=80",
 			name:"小米手机1-5"
 		},
 		{
 			url:"https://www.kuazhu.com",
-			img:"images/shouji2.jpg",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/59d3a701ac0bbb78f1b1d0ea7ebc7505.jpg?width=80&height=80",
 			name:"小米手机1-6"
 		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/ae3df443bfe6b9e634e8957264f6060c.jpg?width=80&height=80",
+			name:"小米手机10-2"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/a991c859604a4960744643eccde76c56.png?width=80&height=80",
+			name:"小米手机1-2"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/2cb85b96b12395fdaa7bccaf8f94e758.jpg?width=80&height=80",
+			name:"小米手机1-3"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/e899d08e36c306570d4fe3c75df90a42.jpg?width=80&height=80",
+			name:"小米手机1-4"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/d24d3886ab3d6b6187cb8a15db3308f4.jpg?width=80&height=80",
+			name:"小米手机1-5"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/21c3ec8638dd75f5c54f1a69864a1cc9.jpg?width=80&height=80",
+			name:"小米手机1-6"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/57d894d9d776e1bcb81681720e4294a9.jpg?width=80&height=80",
+			name:"小米手机10-2"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/458169c8138413666feb860068ce1a56.jpg?width=80&height=80",
+			name:"小米手机1-2"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/972026cd032be6da4093358f70c3f6ba.jpg?width=80&height=80",
+			name:"小米手机1-3"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/d521bd58668f66c50562b8fa8949f67c.jpg?width=80&height=80",
+			name:"小米手机1-4"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/813d173eff50a83abb8abd5abde5f5a6.jpg?width=80&height=80",
+			name:"小米手机1-5"
+		},
+		{
+			url:"https://www.kuazhu.com",
+			img:"https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/813d173eff50a83abb8abd5abde5f5a6.jpg?width=80&height=80",
+			name:"小米手机1-6"
+		}
 	],
 ]

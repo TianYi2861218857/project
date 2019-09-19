@@ -23,6 +23,15 @@ function popout(){
 	oLogo.onmouseleave=function(){
 		animate(oLogoBox,'left',-55);
 	}
+	//问号
+	var oApp1 = document.querySelector('.cont2-txt div i');
+	var oAppBox1 = document.querySelector('.appbox1');
+	oApp1.onmouseenter = function(){
+		oAppBox1.style.display = 'block';
+	}
+	oApp1.onmouseleave = function(){
+		oAppBox1.style.display = 'none';	
+	}
 }
 //购物车
 function handleCart(){
