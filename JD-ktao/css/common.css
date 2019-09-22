@@ -1,0 +1,16 @@
+.container{
+	width: 1226px;
+	margin-right: auto;
+	margin-left: auto;
+	/*background-color: blue;*/
+}
+.clearfix:after{ 
+	content: ".";  /* 搭配after伪类选择器，内容为空*/
+	display: block;
+	height: 0; 
+	clear: both; 
+	visibility: hidden;  
+}
+.clearfix{
+	*zoom: 1;      /*兼容IE浏览器*/
+}
