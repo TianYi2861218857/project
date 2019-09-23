@@ -30,7 +30,7 @@ function handleCarousel(){
 	//创建对象
 	new Carousel({
 		id:'carousel',
-		aImg:['images/headerbackground.png','images/headerbackground.png','images/headerbackground.png'],
+		aImg:['images/headerbackground.png','images/headerbackground2.png','images/headerbackground3.png'],
 		width:1903,
 		height:480,
 		autoPlayTime:3000

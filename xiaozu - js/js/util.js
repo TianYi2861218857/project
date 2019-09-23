@@ -228,6 +228,7 @@ function getRandom(min,max){
             var oLi = document.createElement('li');
             var oImg = document.createElement('img');
             var oBtnLi = document.createElement('li');
+            var oAnniu = document.getElementById('anniu1');
             //给每个li元素设置样式
             oLi.style.position = 'absolute';
             oLi.style.top = 0 ;

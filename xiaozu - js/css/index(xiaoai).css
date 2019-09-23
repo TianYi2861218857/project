@@ -177,6 +177,12 @@
 		background-color: rgba(0,0,0,0.5);
 		color: #fff;
 	}*/
+	.leftBtn{
+		display: none;
+	}
+	.rightBtn{
+		display: none;
+	}
 	.bottomBtn{
 		bottom: 10px;
 		left: 50%;
