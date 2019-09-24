@@ -1,4 +1,4 @@
-/* 头部导航开始 */
+`/* 头部导航开始 */
 	.nav-side{
 		height: 44px;
 		background-color: #f3f5f7;
@@ -13,10 +13,10 @@
 	.nav-left li{
 		margin-right: 5px;
 	}
-	.dropdown{
+	/*.dropdown{
 		position: relative;
-	}
-	.dropdown-toggle{
+	}*/
+	.nav-side .dropdown-toggle{
 		display: block;
 		height: 44px;
 		line-height: 44px;
@@ -25,20 +25,20 @@
 		border-left: 1px solid #f3f5f7;
 		border-right: 1px solid #f3f5f7;
 	}
-	.dropdown-layer{
-		display: none;
-		position: absolute;
+	.nav-side .dropdown-layer{
+		/*display: none;
+		position: absolute;*/
 		background-color: #fff;
 		border: 1px solid #f3f5f7;
 		border-top: none;
 	}
-	.menu-item{
+	.nav-side .menu-item{
 		height: 30px;
 		line-height: 30px;
 		white-space: nowrap;
 		padding: 0px 5px;
 	}
-	.menu-item:hover{
+	.nav-side .menu-item:hover{
 		background-color:#f3f5f7; 
 	}
 	/*
@@ -52,10 +52,10 @@
 		transform: rotate(180deg);
 	}
 	*/
-	.dropdown-active{
+	.nav-side .dropdown-active{
 		background-color: #fff;
 	}
-	.dropdown-active .dropdown-arrow{
+	.nav-side .dropdown-active .dropdown-arrow{
 		transform: rotate(180deg);
 	}
 /* 头部导航结束 */
